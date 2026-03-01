@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+
+# Dataset (too large)
+dataset/
+
+# Training runs (too large)
+runs/
+
+# Weights
+*.pt
+!yolov8n.pt
+
+# WandB
+wandb/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Node
+node_modules/

@@ -1,0 +1,92 @@
+/* 全局样式 */
+* {
+    font-family: "Microsoft YaHei", "Segoe UI", Tahoma, sans-serif;
+}
+
+/* 主标题样式 */
+h1, h2, h3 {
+    color: #2c3e50;
+    font-weight: bold;
+}
+
+/* 登录表单样式 */
+div[data-testid="stTextInput"] > div:first-child {
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    padding: 0 10px;
+    margin-bottom: 10px;
+}
+
+div[data-testid="stTextInput"] > div input {
+    color: #2c3e50;
+}
+
+/* 按钮样式 */
+.stButton > button {
+    width: 100%;
+    border-radius: 5px;
+    background-color: #3498db;
+    color: white;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.stButton > button:hover {
+    background-color: #2980b9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* 上传文件按钮样式 */
+.uploadedFileData {
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+/* 侧边栏样式 */
+section[data-testid="stSidebar"] {
+    background-color: #f8f9fa;
+}
+
+section[data-testid="stSidebar"] .stSelectbox div[data-baseweb="select"] {
+    border-radius: 5px;
+}
+
+/* 滑块样式 */
+div[data-testid="stSlider"] {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/* 进度条样式 */
+div[role="progressbar"] > div:first-child {
+    background-color: #3498db;
+}
+
+/* 成功信息样式 */
+div[data-testid="stSuccess"] {
+    background-color: #d4edda;
+    color: #155724;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+/* 错误信息样式 */
+div[data-testid="stError"] {
+    background-color: #f8d7da;
+    color: #721c24;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+/* 信息样式 */
+div[data-testid="stInfo"] {
+    background-color: #cce5ff;
+    color: #004085;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+} 
