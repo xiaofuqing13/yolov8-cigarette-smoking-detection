@@ -108,6 +108,6 @@ ultralytics-main/
 | 深度学习 | PyTorch |
 | 图像处理 | OpenCV |
 
-## License
+## 许可证
 
-MIT License
+MIT 许可证
