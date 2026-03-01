@@ -1,5 +1,8 @@
 # YOLOv8 香烟/吸烟行为检测系统
 
+![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white) ![YOLOv8](https://img.shields.io/badge/YOLOv8-Ultralytics-blue) ![License](https://img.shields.io/badge/License-MIT-green)
+
+
 公共场所的禁烟管理一直依赖人工巡查，效率低且容易遗漏。本项目基于 YOLOv8 训练了吸烟行为检测模型，同时集成了 CBAM 和 SE 两种注意力机制模块进行对比实验，并提供 PyQt5 桌面端和 Streamlit Web 端两套交互界面，支持图片、视频和摄像头实时检测。
 
 ## 痛点与目的
